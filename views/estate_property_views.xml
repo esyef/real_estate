@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+
+    <!-- Action -->
+
+    <record id='action_real_estate_property' model="ir.actions.act_window">
+        <!-- The name field is be showed into interface user -->
+        <field name="name">Properties</field>
+        <field name="res_model">estate.property</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
